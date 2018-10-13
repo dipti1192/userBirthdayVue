@@ -152,6 +152,11 @@ export default {
                   And most importantly keep clicking awesome pictures of us! 
                   Have a great year ahead!!`
             },
+            {
+              title: 'Vinaya Rao', icon: 'Vinaya.jpg',id:'21',
+              msg:`Hi Aniket, wish you a very happy birthday! Cheers to our shared love for 
+              the so-called-weird-but-actually-awesome songs😅 Have a great year!!`
+            },
             { title: 'Jeevan Sai Reddy', icon: 'Jeevan.jpg',id:'14',
               msg: `Aniket,
                   We have been hanging around since day 1. Our frequencies matched and became 
@@ -194,7 +199,7 @@ export default {
                     Have a great year ahead !!
                     Keep smiling ! Keep rocking !!!`
             },
-            { title: 'Mrigank Singh', icon: 'Mrigank.jpg',id:'18',
+            { title: 'Mrigank Singh', icon: 'Mrigank.jpg',id:'20',
               msg: `Happy budd(w)ay aniket 🎂😅😅.. Is rocket ki tarah unchaiyo ko Chuo tum hamesha 🚀.. 
                     Njoy cincinati.. N come back soon :).. P.s. Kafi charbi chadha li hai waise tune ab 
                     to.. 😛😁.. Post some clicks on ur birthday to refresh urself n others who admire ur 
