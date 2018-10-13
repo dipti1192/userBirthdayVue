@@ -17,8 +17,8 @@
         <v-icon>search</v-icon>
       </v-btn>
 
-      <v-btn icon>
-        <v-icon>favorite</v-icon>
+      <v-btn icon  @click="like=!like">
+        <v-icon v-bind:class="{ likeApp: like }">favorite</v-icon>
       </v-btn>
 
       <v-btn icon>
@@ -42,7 +42,7 @@
           </v-list-tile-avatar>
 
           <v-list-tile-content>
-            <v-list-tile-title>Aniket Mahapure</v-list-tile-title>
+            <v-list-tile-title class="name">Aniket Mahapure</v-list-tile-title>
           </v-list-tile-content>
         </v-list-tile>
       </v-list>
@@ -60,7 +60,7 @@
           </v-list-tile-action>
 
           <v-list-tile-content>
-            <v-list-tile-title>{{ item.title }}</v-list-tile-title>
+            <v-list-tile-title class="menuList">{{ item.title }}</v-list-tile-title>
           </v-list-tile-content>
         </v-list-tile>
       </v-list>
@@ -75,11 +75,12 @@ export default {
   data () {
     return {
       drawer: null,
+      like:false,
       items: [
         // { title: 'Home', icon: 'dashboard', path:'/home'},
-        { title: 'Birthday', icon: 'cake', path:'/happy-birthday' },
+        { title: 'Family', icon: 'account_circle', path:'/family' },
         { title: 'Friends', icon: 'people', path:'/friends' },
-        { title: 'Photography', icon: 'photo_camera', path:'/photos' },
+        { title: 'Memories', icon: 'alarm', path:'/memories' },
         { title: 'About', icon: 'question_answer', path:'/about' }
       ]
     }
@@ -98,5 +99,16 @@ export default {
    height: 8% !important;
    width: 100% !important;
    position: relative;
+}
+.likeApp{
+  color: red !important;
+}
+.name{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+}
+.menuList{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 15px;
 }
 </style>

@@ -18,14 +18,14 @@
                   This is a single page application using Vue.js, Vuetify and Jquery.
                   Application is hosted on platform of Heroku.
                   Its specially for you Aniket as a small Birthday Gift. 
-                  Its just 15 days work so could not refined it properly.
+                  Its just 15 days work so I could not refine it properly.
                   Consider it as a just beta version. I learnt many things during this app development.
                   Hopefully you will like it.
 
                   You might be intrested in exact code too. 
                   <br>
                   <br>
-                  Hosted app is present at <a href="https://user-profile-vue.herokuapp.com/">User Profile</a>
+                  Hosted app is present at <b>https://user-profile-vue.herokuapp.com/</b>
                   <br>
                   <br>
                   Follow below steps to run this app on your local machine:
@@ -54,9 +54,11 @@
                       I would like to thank all of your friends for helping me in this idea.
                       Specially HARSHRAJ helped me a lot. He is really super energetic person. 
                       In fact I was planning this application thing since you decided to go USA. 
-                      It was supposed to be your farewell gift but I couldnt manage to do so.
-                      But one day when I was talking with him first time on call about your birthday plan, 
-                      unknowingly his words pushed me to make this app into reality. Thank you so much HARSHRAJ for that.
+                      It was supposed to be your farewell gift but I couldn't manage to do so.
+                      But one day when I was talking with him for very first time on call about your 
+                      birthday plan, 
+                      unknowingly his words pushed me to make this app into reality.
+                      Thank you so much HARSHRAJ for that.
                   </div>
                 </div>
               </v-card-actions>

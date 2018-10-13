@@ -4,7 +4,7 @@
     <v-btn style="color:white" icon>
         <v-icon>cake</v-icon>
     </v-btn>
-    <v-toolbar-title style="color:white">Birthday Wishes</v-toolbar-title>
+    <v-toolbar-title style="color:white">BIRTHDAY WISHES</v-toolbar-title>
   </v-toolbar>
   <v-layout >
     <v-flex xs12 style="margin-top:25px">
@@ -152,7 +152,7 @@ export default {
                   And most importantly keep clicking awesome pictures of us! 
                   Have a great year ahead!!`
             },
-            { title: 'Jeevan sai', icon: 'Jeevan.jpg',id:'14',
+            { title: 'Jeevan Sai Reddy', icon: 'Jeevan.jpg',id:'14',
               msg: `Aniket,
                   We have been hanging around since day 1. Our frequencies matched and became 
                   friends very quickly. You were present in every fun event I was part of and 
@@ -175,11 +175,48 @@ export default {
                     Fir apan ek din is seaplane ride pe chlenge. Chalti hai na? 😂 Love you bhai!`
             },
             {
-              title: 'Kunal Priyadarshi', icon: 'Mohit.jpg',id:'16',
+              title: 'Kunal Priyadarshi', icon: 'Kunal.jpg',id:'16',
               msg: `Happy Birthday Aniket! Thank you for hosting all our parties🍻 and 
                     group studies. we will make sure you feel at home with birthday bumps 😂`
             },
-            { title: 'Dipti Prabhavale', icon: 'dipti.png',id:'1'},
+            {
+              title: 'Trishul Ashok', icon: 'Trishul.jpg',id:'17',
+              msg: `Hey Aniket, you have been a great roommate and a fun guy to hangout with. 
+                    Happy birthday bro. Have a great day and a great year ahead.`
+            },
+            { title: 'Mukul Verma', icon: 'Mukul.jpg',id:'18',
+              msg: `Happy birthday BHADWE
+                    Didn't imagined you going for further studies because the way we completed 
+                    our fraud matka thesis during college! All the best and have a great year bro!!`
+            },
+            { title: 'Ashok Alpha', icon: 'Ashok.jpg',id:'19',
+              msg: `Happy B'day BHADWE 😀
+                    Have a great year ahead !!
+                    Keep smiling ! Keep rocking !!!`
+            },
+            { title: 'Mrigank Singh', icon: 'Mrigank.jpg',id:'18',
+              msg: `Happy budd(w)ay aniket 🎂😅😅.. Is rocket ki tarah unchaiyo ko Chuo tum hamesha 🚀.. 
+                    Njoy cincinati.. N come back soon :).. P.s. Kafi charbi chadha li hai waise tune ab 
+                    to.. 😛😁.. Post some clicks on ur birthday to refresh urself n others who admire ur 
+                    photography 😁📷. Take care bhai`
+            },
+            { title: 'Dipti Prabhavale', icon: 'Dipti.jpg',id:'1',
+              msg: `Dearest Aniket,
+                  I know you are so surprised by reading all above messages 🤭. 
+                  I am so sure that you are having a big smile on your face now. 
+                  I am so glad that you are surrounded with such nice people. 
+                  Initially I was so worried about how will you get connected with other 
+                  people around you being an introvert person. Now I am so relaxed after 
+                  reading all these messages from your Cincinnati friends. I am glad to see 
+                  that you are taking efforts to make conversation with unkown people around you 
+                  specially with girls 🙈🤭😝. This year I am not there with you to celebrate or surprise 
+                  you in person but I hope you will like this small token of love🥰❤️💕 in my absence too.
+                  If you really liked it then just hit the like at upper right corner of app.
+                  Lastly, I wish you a very very Happy Birthday Dholu😊☺️ May God bless you with 
+                  Happiness ,Success , Health and Wealth.Eagerly waiting for the day on which we will
+                  meet in person.
+                  See you soon 🤗 Take Care!`
+            },
               
         ] 
       }

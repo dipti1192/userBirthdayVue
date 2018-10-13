@@ -6,20 +6,18 @@
           <v-btn style="color:white" icon>
             <v-icon>camera</v-icon>
           </v-btn>
-          <v-toolbar-title style="color:white">Clicks</v-toolbar-title>
+          <v-toolbar-title style="color:white">CRAZY MEMORIES</v-toolbar-title>
         </v-toolbar>
+        <v-container fluid grid-list-sm>
+          <v-layout row wrap>
+            <v-flex v-for="(photo, index) in photos" :key="photo.id" xs4 class="block">
+              <img :src="getImgURL(index)" class="image" alt="lorem" width="100%" height="100%">
+            </v-flex>
+          </v-layout>
+        </v-container>
+        
       </v-card>
-      <v-carousel style="margin-top:10px;">
-        <v-carousel-item
-          v-for="(photo,i) in photos"
-          :key="photo.id"
-          :src="getImgURL(photo.icon)"
-          reverse-transition="fade"
-          transition="fade"
-        ></v-carousel-item>
-      </v-carousel>
     </v-flex>
-  
   </v-layout>
 </template>
 <script>
@@ -28,20 +26,20 @@ export default {
   data () {
     return {
       drawer: null,
-      photos: [
-        { title: 'Bird', icon: 'Bird.jpg',id:'1'},
-        { title: 'Birthday', icon: 'Earphones.jpg',id:'2'},
-        { title: 'Photography', icon: 'Friends.jpg',id:'5'},
-        { title: 'Photography', icon: 'Slippers.jpg',id:'9'},
-      ]
+      photos: [],
     }
   },
- methods:{
+  created(){
+    for(let i=1;i<80;i++){
+      this.photos.push(i);
+    }
+  },
+  methods:{
     redirectToPage(page){
       this.$router.push(page);
     },
     getImgURL(img){
-      return require(`../assets/photography/${img}`);
+      return require(`../assets/Memories/${img+1}.jpg`);
     }
   }
 };
@@ -49,5 +47,9 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-
+  .block {
+    max-height:350px;
+    padding:5px;
+    min-height: 350px;
+  }
 </style>

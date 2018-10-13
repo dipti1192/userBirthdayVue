@@ -99,16 +99,7 @@
 					<p>Now things are different...</p>
 					<p>real story of your life</p>
 					<p>is just about to begin</p>
-					<p>indeed..</p>
-					<p>this life is not easy as we thought</p>
-					<p>but...</p>
-					<p>don't worry</p>
-					<p>don't be afraid</p>
-					<p>because...</p>
-					<p>you are not alone in this journey</p>
-					<p>because...</p>
-					<p>this year will be better</p>
-					<p>and I hope</p>
+					<p>I hope</p>
 					<p>you'll find...</p>
 					<p>happiness along the way</p>
 					<p>keep your spirits up</p>

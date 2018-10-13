@@ -1,8 +1,8 @@
 import Vue from 'vue'
-import WishCard from '@/components/WishCard.vue'
+import Family from '@/components/Family.vue'
 import Birthday from '@/components/Birthday.vue'
 import HeaderBar from '@/components/HeaderBar.vue'
-import Photography from '@/components/Photography.vue'
+import Memories from '@/components/Memories.vue'
 import Friends from '@/components/Friends.vue'
 import About from '@/components/About.vue'
 import Router from 'vue-router'
@@ -21,14 +21,14 @@ export default new Router({
       component: About
     },
     {
-      path: '/happy-birthday',
-      name: 'happy-birthday',
-      component: WishCard
+      path: '/family',
+      name: 'Family',
+      component: Family
     },
     {
-      path: '/photos',
-      name: 'Photography',
-      component: Photography
+      path: '/memories',
+      name: 'Memories',
+      component: Memories
     },
     {
       path: '/friends',
