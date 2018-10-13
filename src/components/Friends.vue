@@ -127,7 +127,7 @@ export default {
                   happiness.May you get job soon and have a blessed life ahead..😃
                   मित्रा,वाढदिवसाच्या आभाळभर शुभेच्छा🎂😊`
             },
-            { title: 'Pallavi Singh', icon: 'Pallavi.jpg',id:'11',
+            { title: 'Pallavi Singh', icon: 'Pallavi.jpg',id:'12',
               msg: `We started as just neighbors but now you are one of the closest friends here. 
                     Love our conversations and endless gossip sessions 😋
                     You are one person I can totally count on.
@@ -141,7 +141,7 @@ export default {
                     Cheers!
                     Also, "You are a horrible person" 😛 (now don't gimme that look)`
             },
-            { title: 'Kratika Gupta', icon: 'Kratika.jpg',id:'12',
+            { title: 'Kratika Gupta', icon: 'Kratika.jpg',id:'13',
               msg: `Yo bro,
                   Wish you a very happy birthday!!! I remember the first time we met and bonded 
                   over a common friend, but now I think we are better friends than I am with him! 🤷
@@ -152,7 +152,7 @@ export default {
                   And most importantly keep clicking awesome pictures of us! 
                   Have a great year ahead!!`
             },
-            { title: 'Jeevan sai', icon: 'Jeevan.jpg',id:'13',
+            { title: 'Jeevan sai', icon: 'Jeevan.jpg',id:'14',
               msg: `Aniket,
                   We have been hanging around since day 1. Our frequencies matched and became 
                   friends very quickly. You were present in every fun event I was part of and 
@@ -166,7 +166,7 @@ export default {
                   A very happy birthday and have a great year ahead 😊`
             },
             {
-              title: 'Mohit Anand', icon: 'Mohit.jpg',id:'14',
+              title: 'Mohit Anand', icon: 'Mohit.jpg',id:'15',
               msg: `Maha-pure! Tu mujhe one of the most genuine bando mein se ek laga at Cincy. 
                     Tere sath bakar kaatna, tull hokr nachna aur fir exam ke liye pdhna- sbme maza aata hai. 
                     You find place in my potential best buddies very easily. Bindas down to earth banda hai tu. 
@@ -175,7 +175,7 @@ export default {
                     Fir apan ek din is seaplane ride pe chlenge. Chalti hai na? 😂 Love you bhai!`
             },
             {
-              title: 'Kunal Priyadarshi', icon: 'Mohit.jpg',id:'15',
+              title: 'Kunal Priyadarshi', icon: 'Mohit.jpg',id:'16',
               msg: `Happy Birthday Aniket! Thank you for hosting all our parties🍻 and 
                     group studies. we will make sure you feel at home with birthday bumps 😂`
             },
