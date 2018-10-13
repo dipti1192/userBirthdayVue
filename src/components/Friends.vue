@@ -40,12 +40,26 @@ export default {
   data () {
       return {
         photos: [
-            { title: 'Dipti Prabhavale', icon: 'dipti.png',id:'1'},
             { title: 'Dhiraj Mali', icon: 'Dhirya.jpg',id:'2',
-              msg:`जल्लोश आहे गावाचा,
+              msg:`आई-वडील  दोन्ही वडगांव चे प्रसिद्ध डॉक्टर त्याचा एकुलता एक लाडका मुलगा ... आशी पहिल्यांदा ५ वी मध्ये 
+                  ओळख झाली..५ वी पासून मैत्री  झाल्या पासून आज पर्यंत ..... शाळे मध्ये टॉपर. व कॉलेज मध्येही टॉपर.
+                  ८ वी मध्ये शाळा सोडून kolhapur मध्ये गेला शिकायला.   १० वी मध्ये पहिला नंबर . सगळ्यां ना वाटले ..हा 
+                  डॉक्टर होणार. .   पण झाला तो आयआयटी engineer
+                  अनिकेत  तुझ्या मुळे केतन शी पण चांगली फ्रेंडशिप झाली...केतन च आणि माझा स्कूल मध्ये पटत नव्हतं.
+                  पण अनिकेत तुझ्या मुळे .... तो पण माझा चांगला मित्र बनला. तु  राजस्थान मध्ये कोटा मध्ये शिकायला गेला .. 
+                  तेव्हा तू  पहिल्या jaatana.  खूप रडला ... मला आठवते की....परत घरी जाऊन परत आला आणि रडू कंट्रोल झाला नाही.
+                  मला ही रडू आला..खूप खराब वाटत होता..  कारण.  सुट्टी मध्ये खूप एन्जॉय केला होता .. कोल्हापूर ,पिक्चर , पन्हाळा ई.
+                  सुट्टी मध्ये आला घरी तर पहिला  तू मला आणि केतन ला फोन असायचा. Movie , kolhapur सुट्टीत. 
+                  नक्कीच असाय ची....परत केतन पुण्याला गेला.   तसा ऋषी केतन मी आणि तू चांगला ग्रूप झाला...मी पण पुण्याला कॉलेजला  आलो ...
+                  तू  डायरेक्ट पुण्याला यायचा.... दीप्ती तुझी ची स्कूल फ्रेंड. .ती पण पुण्यात जॉब साठी होती ...तिची ओळक तू  ने करून दिली स...ती पण आमची सगळ्यांची चांगली मैत्रीण बनली.....
+                  खूप काही आठवणी आहेत... बोलेल तेवढा कमी आहे.   ..
+                  आज तुझा  वाढदिवस आणि  तू आमच्या सगळ्यांपासून दूर तिकडे  USA मध्ये. तरी सुद्धा WhatsApp & massagers मुळे चांगलंच जवळ आहोत.     
+                  शेवटी एकच बोलेन....
+                  "जल्लोश आहे गावाचा,
                   कारण वाढदिवस आहे,
                   माझ्या भावाचा!!!
-                  वाढदिवसाच्या हार्दीक शुभेच्छा…!`
+                  वाढदिवसाच्या हार्दीक शुभेच्छा…!"
+                  Happy birthday Aniket.🎂🎂🎂🎂 Miss u`
             },
             { title: 'Ketan Kumbhar', icon: 'Ketan.jpg',id:'3',
               msg: `On your birthday I wish for you that whatever 
@@ -113,7 +127,32 @@ export default {
                   happiness.May you get job soon and have a blessed life ahead..😃
                   मित्रा,वाढदिवसाच्या आभाळभर शुभेच्छा🎂😊`
             },
-            { title: 'Jeevan sai', icon: 'Jeevan.jpg',id:'11',
+            { title: 'Pallavi Singh', icon: 'Pallavi.jpg',id:'11',
+              msg: `We started as just neighbors but now you are one of the closest friends here. 
+                    Love our conversations and endless gossip sessions 😋
+                    You are one person I can totally count on.
+                    It's been just two months since we've known 
+                    each other but it's so cool that we've spoken about so many things 
+                    and have spent so much time together be it classes or random events.
+                    Love the fact that you are so outgoing and always open to ideas.
+                    You are an amazing person and it's great how you've figured out 
+                    'some' of my quirks already (not happy about the latter) 😬 
+                    Hope you have an amazing birthday and an even more amazing year!
+                    Cheers!
+                    Also, "You are a horrible person" 😛 (now don't gimme that look)`
+            },
+            { title: 'Kratika Gupta', icon: 'Kratika.jpg',id:'12',
+              msg: `Yo bro,
+                  Wish you a very happy birthday!!! I remember the first time we met and bonded 
+                  over a common friend, but now I think we are better friends than I am with him! 🤷
+                  Cheers to our daaru session, singing sessions, dancing sessions, listening to
+                  "good" music sessions, exam sessions, to making stupid mistakes in the exam 
+                  and then celebrating them like crazy! 😂
+                  Be the genuine person that you are! 
+                  And most importantly keep clicking awesome pictures of us! 
+                  Have a great year ahead!!`
+            },
+            { title: 'Jeevan sai', icon: 'Jeevan.jpg',id:'13',
               msg: `Aniket,
                   We have been hanging around since day 1. Our frequencies matched and became 
                   friends very quickly. You were present in every fun event I was part of and 
@@ -126,7 +165,22 @@ export default {
                   Keep rocking the same way and let’s continue to have fun for the rest of this year. 😊 
                   A very happy birthday and have a great year ahead 😊`
             },
-            
+            {
+              title: 'Mohit Anand', icon: 'Mohit.jpg',id:'14',
+              msg: `Maha-pure! Tu mujhe one of the most genuine bando mein se ek laga at Cincy. 
+                    Tere sath bakar kaatna, tull hokr nachna aur fir exam ke liye pdhna- sbme maza aata hai. 
+                    You find place in my potential best buddies very easily. Bindas down to earth banda hai tu. 
+                    Toh bhai ki taraf se darling tujhe happy birthday. 
+                    Bottomline- Tu bindas khush reh life mein. And i wish hmari dosti bhi tagdi hoti jaye. 
+                    Fir apan ek din is seaplane ride pe chlenge. Chalti hai na? 😂 Love you bhai!`
+            },
+            {
+              title: 'Kunal Priyadarshi', icon: 'Mohit.jpg',id:'15',
+              msg: `Happy Birthday Aniket! Thank you for hosting all our parties🍻 and 
+                    group studies. we will make sure you feel at home with birthday bumps 😂`
+            },
+            { title: 'Dipti Prabhavale', icon: 'dipti.png',id:'1'},
+              
         ] 
       }
   },

@@ -15,7 +15,35 @@
               </v-card-title>-->
               <v-card-actions>
                 <div class="subheading cardtext">
-                  {{aboutText}}
+                  This is a single page application using Vue.js, Vuetify and Jquery.
+                  Application is hosted on platform of Heroku.
+                  Its specially for you Aniket as a small Birthday Gift. 
+                  Its just 15 days work so could not refined it properly. I will keep working on it going forward too.
+                  Consider it as a just beta version. I learnt many things during this app development.
+                  Hopefully you will like it.
+
+                  You might be intrested in exact code too. 
+                  <br>
+                  <br>
+                  To check exact code follow below steps.
+                  <br>
+                  <div>
+                    1.Install git.
+                    <br>
+                    2.Create new folder and open git bash there.\n
+                    <br>
+                    3.Run Command "git clone https://github.com/dipti1192/VueJSProfile.git"
+                    <br>
+                    4.Go to user-profile folder by running "cd user-profile"
+                    <br>
+                    5.Run npm install
+                    <br>
+                    6.Run npm run serve
+                    <br>
+                    7. It will start your application locally like localhost:8080
+                    <br>
+                    8.Run mentioned URL in chrome.
+                  </div>
                 </div>
               </v-card-actions>
             </v-card>
@@ -28,13 +56,24 @@ export default {
   name: 'About',
   data () {
     return {
-      aboutText: `Listen to your favorite artists and albums whenever and wherever, online and offline.
-                  Listen to your favorite artists and albums whenever and wherever, online and offline.
-                  Listen to your favorite artists and albums whenever and wherever, online and offline.
-                  Listen to your favorite artists and albums whenever and wherever, online and offline.
-                  Listen to your favorite artists and albums whenever and wherever, online and offline.
-                  Listen to your favorite artists and albums whenever and wherever, online and offline.
-                  Listen to your favorite artists and albums whenever and wherever, online and offline.`
+      aboutText: `This is a single page application using Vue.js, Vuetify and Jquery.
+      Application is hosted on platform of Heroku.
+      Its specially for you Aniket as a small Birthday Gift. 
+      Its just 15 days work so could not refined it properly. I will keep working on it going forward too.
+      Consider it as a just beta version. I learnt many things during this app development.
+      Hopefully you will like it.
+
+      I know you are intrested in exact code too. 
+      To check it follow below steps.
+      1.Install git.
+      2.Create new folder and open git bash there.\n
+      3.Run Command "git clone https://github.com/dipti1192/VueJSProfile.git"
+      4.Go to user-profile folder by running "cd user-profile"
+      5.Run npm install
+      6.Run npm run serve
+      7. It will start your application locally like localhost:8080
+      8.Run mentioned URL in chrome.
+      ` 
     }
   },
  methods:{
