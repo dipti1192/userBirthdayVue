@@ -26,7 +26,7 @@ export default {
   data () {
     return {
       drawer: null,
-      photos: [],
+      photos: []
     }
   },
   created(){
